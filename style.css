@@ -1,0 +1,294 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Roboto", sans-serif; 
+}
+
+body {
+    background-color: #000;
+}
+
+.container {
+    display: flex;
+}
+
+.aboutcontainer {
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    border-radius: 10px;
+    background-color: rgb(70, 63, 63);
+    height: 600px;
+    width: 270px;
+    color: #ffff;
+
+}
+
+.aboutcontainer img {
+    border-radius: 30px;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.aboutcontainer h3 {
+     margin-top: 10px;
+}
+
+.aboutcontainer p {
+    font-size: 14px;
+    color: black;
+}
+
+hr {
+    margin-top: 20px;
+    margin-left: 55px;
+    border: 1px solid hsl(64, 87%, 56%);
+    opacity: 0.5;
+    width: 160px;
+}
+
+.icons i {
+    color: rgba(231, 206, 65, 0.753);
+}
+
+.info {
+    display: flex;
+    margin-top: 15px;
+    padding-left: 30px;
+}
+
+.para p {
+    color: #ffff;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+a {
+    color: rgb(238, 158, 158);
+}
+
+button {
+    background-color: rgb(190, 26, 54);
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 65px;
+}
+
+a:hover {
+    color: rgb(78, 97, 180);
+}
+
+.about-container {
+    position: absolute;
+    left: 330px;
+    top: 50px;
+    background-color: rgb(70, 63, 63);
+    height: 1250px;
+    width: 850px;
+    color: #ffff;
+    border-radius: 10px;
+}
+
+.navbar {
+    display: flex;
+
+}
+
+.navbar:hover {
+    color: rgb(231, 229, 71);
+}
+
+.navbar ul li a:hover {
+    color: rgb(80, 187, 248);
+}
+
+.navbar h1 {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 160px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: wheat;
+}
+
+.navbar ul li {
+    display: inline-flex;
+    padding: 20px;
+}
+
+.progress {
+    height: 2px;
+    width: 100%;
+    background-color: rgb(235, 247, 130);
+    animation: grow 5s linear infinite;
+    transform-origin: initial;
+}
+
+@keyframes grow {
+    0% {
+        transform: scaleX(0);
+    }
+}
+.section-content {
+    display: none;
+}
+
+.section-content.active {
+    display: block;
+}
+
+#about h3 {
+    margin-top: 25px;
+    padding-left: 20px;
+}
+.wholebox {
+    display: flex;
+}
+
+.boxs:hover {
+    background-color: rgb(110, 143, 165);
+    box-shadow: 4px 4px rgb(8, 81, 110);
+    color: #000;
+}
+
+.boxs {
+
+    box-sizing: border-box;
+    background-color: #2e2c2c;
+    box-shadow: 2px 2px black;
+    height: 120px;
+    width: 320px;
+    margin-top: 50px;
+    margin-left: 70px;
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+}
+
+.testimonial {
+    box-sizing: border-box;
+    background-color: #2e2c2c;
+    box-shadow: 2px 2px black;
+    height: 150px;
+    width: 700px;
+     margin-left: 70px;
+    padding: 20px;
+}
+
+#resume h3 {
+    margin-left: 20px;
+
+}
+
+.dot {
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: rgba(231, 206, 65, 0.753);
+    height: 10px;
+    width: 10px;
+    margin-left: 50px;
+
+}
+
+.vl {
+    border-left: 1px solid green;
+    height: 150px;
+    margin-left: 55px;
+    display: flex;
+}
+
+.hobbies {
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+.education-content P {
+    padding: 5px;
+}
+
+.education-content P:hover {
+    color: rgb(252, 244, 139);
+}
+
+.certification p {
+
+
+    margin-left: 50px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(31, 30, 30);
+
+}
+
+.nav {
+    background-color: yellow;
+    height: 40px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.nav ul li {
+    display: inline-flex;
+    padding: 20px;
+}
+
+.web {
+    margin: 30px 60px;
+
+}
+
+.pro {
+    display: flex;
+}
+
+.pro button {
+    color: azure;
+    height: 30px;
+
+}
+
+.pro button:hover {
+    background-color: grey;
+    color: black;
+}
+
+.elysium:hover {
+    color: rgb(209, 245, 242);
+}
+
+#contact-form {
+    background-color: antiquewhite;
+    height: 400px;
+    width: 400px;
+}
+
+label {
+    margin-top: 30px;
+    color: black;
+}
+
+input {
+    border: none;
+    background-color: #ffff;
+    height: 40px;
+}
+
+form {
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+
+
